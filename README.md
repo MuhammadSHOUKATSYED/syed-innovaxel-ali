@@ -22,7 +22,7 @@ This is a simple yet professional full-stack **URL Shortener** application built
 - Clone repository
   git clone https://github.com/MuhammadSHOUKATSYED/syed-innovaxel-ali.git
 
-  --
+  --- 
   
 - npm install
 - Create .env file i.e.
@@ -36,7 +36,7 @@ This is a simple yet professional full-stack **URL Shortener** application built
   npm run dev
 - Server will be running at: http://localhost:5000
 
-  --
+  --- 
 
   
 - Navigate to url-shortener-ui
