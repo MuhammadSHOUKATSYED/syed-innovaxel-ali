@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE!;
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE;
 
 export default function Home() {
   const [url, setUrl] = useState('');
