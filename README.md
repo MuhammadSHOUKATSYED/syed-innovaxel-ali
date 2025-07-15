@@ -20,7 +20,7 @@ This is a simple yet professional full-stack **URL Shortener** application built
 
 ## Project Setup
 - Clone repository
-  git clone https://github.com/your-username/syed-innovaxel-ali.git
+  git clone https://github.com/MuhammadSHOUKATSYED/syed-innovaxel-ali.git
 
   --
   
