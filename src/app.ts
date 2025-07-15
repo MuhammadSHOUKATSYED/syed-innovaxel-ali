@@ -1,11 +1,11 @@
-import express from "express";
-import dotenv from "dotenv";
-import bodyParser from "body-parser";
-import urlRoutes from "./routes/url.routes";
+import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import urlRoutes from './routes/url.routes';
 
-dotenv.config();
+const app = express(); // make sure this is BEFORE app.use(...)
 
-const app = express();
+app.use(cors());
 app.use(bodyParser.json());
 app.use("/api", urlRoutes);
 
