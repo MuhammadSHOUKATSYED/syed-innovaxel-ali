@@ -26,7 +26,7 @@ This is a simple yet professional full-stack **URL Shortener** application built
   
 - npm install
 - Create .env file i.e.
-  DATABASE_URL="postgresql://postgres:Horraah1234!@localhost:5432/url-shorten"
+  DATABASE_URL="postgresql://postgres:password@localhost:5432/url-shorten"
   PORT=5000
 - Set up prisma
   npx prisma init
